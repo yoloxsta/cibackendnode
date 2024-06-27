@@ -32,8 +32,8 @@ jobs:
           name: my-artifact 
           path: coverage/clover.xml
 
-      - uses: sonarsource/sonarqube-scan-action@master
-        env:
-          SONAR_TOKEN: 'sqp_ac83bfbfd421ef0fd4a119c000f7bbf71210ba30'
-          SONAR_HOST_URL: 'http://54.236.251.70:9000'
+      //- uses: sonarsource/sonarqube-scan-action@master
+      //  env:
+        //  SONAR_TOKEN: 'sqp_ac83bfbfd421ef0fd4a119c000f7bbf71210ba30'
+          //SONAR_HOST_URL: 'http://54.236.251.70:9000'
       

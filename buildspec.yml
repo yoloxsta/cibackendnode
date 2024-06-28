@@ -4,10 +4,10 @@ env:
   variables:
     AWS_DEFAULT_REGION: "us-east-1"
     AWS_ACCOUNT_ID: "220100568835"
-    IMAGE_REPO_NAME: "bar"
+    IMAGE_REPO_NAME: "backendecr"
     IMAGE_TAG: "latest"
-    REPOSITORY_URI: "220100568835.dkr.ecr.us-east-1.amazonaws.com/bar"
-    CONTAINER_NAME: "nginx"
+    REPOSITORY_URI: "220100568835.dkr.ecr.us-east-1.amazonaws.com/backendecr"
+    CONTAINER_NAME: "nginx1"
     
 phases:
   pre_build:

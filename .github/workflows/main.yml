@@ -3,15 +3,15 @@ name: Backend Unit Tests
 on: [push, pull_request]
 
 jobs:
-  test:
+  deploy_source:
+    name: Unit Testing
+
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
+      - name: checkout source code
+        uses: actions/checkout@v4
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: '14'
 

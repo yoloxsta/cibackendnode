@@ -1,6 +1,10 @@
-name: Backend Unit Tests
-
-on: [push, pull_request]
+name: Unit Testing
+on:
+  pull_request:
+    branches: [dev-master,feature/qa]
+  push:
+    branches:
+      - main
 
 jobs:
   deploy_source:
